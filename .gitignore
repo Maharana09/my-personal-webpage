@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maharana's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: #0779e4;
+            color: #fff;
+            text-align: center;
+            padding-top: 100px;
+        }
+        #showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .box {
+            float: left;
+            width: 30%;
+            padding: 10px;
+            margin: 10px;
+            background: #fff;
+            box-shadow: 0 0 10px #ccc;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Maharana</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Personal Webpage</h1>
+            <p>Digital Marketing Executive | Social Media Executive</p>
+        </div>
+    </section>
+    <section id="main" class="container">
+        <div id="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Maharana, a highly driven Digital Marketing Executive with 2 years of proven experience establishing online success. I am seeking a challenging position where I can use my expertise in the areas of content marketing, social media, SEO, and SMM to engage audiences, build brands, and support dynamic marketing strategies for an innovative organization.</p>
+        </div>
+        <div id="experience">
+            <h2>Experience</h2>
+            <p><strong>Digital Marketing Executive | SEO Executive</strong><br>
+            AK Digital Marketing Pvt. Ltd. | Jun 2022 - Present</p>
+            <ul>
+                <li>Developing and implementing ongoing digital marketing strategies in alignment with organizational goals.</li>
+                <li>Creating and executing captivating content for social media platforms, ensuring brand messaging alignment.</li>
+                <li>Driving traffic and enhancing brand visibility through content marketing on various social media platforms.</li>
+                <li>Implementing ROI-focused Facebook ad strategies, actively managing campaigns, and optimizing for impact.</li>
+                <li>Generating regular reports detailing campaign performance, ROI, and key metrics to inform decision-making.</li>
+                <li>Managing and optimizing Shopify listings for enhanced visibility, user experience, and sales performance.</li>
+                <li>Generating high-quality backlinks to enhance a website's authority and boost its visibility.</li>
+                <li>Conducting continuous market research and competitor analysis to identify impactful business strategies.</li>
+                <li>Analysing social media metrics consistently to assess campaign performance and optimize strategies.</li>
+                <li>Tracking and analysing digital marketing efforts through tools like Google Analytics for valuable insights.</li>
+                <li>Collaborating with designers, developers, and content creators to achieve unified marketing objectives.</li>
+                <li>Identified and selected relevant keywords to optimize content for search engines and target audience.</li>
+                <li>Optimized website content, Meta tags, and structure to improve search engine rankings.</li>
+                <li>Implemented on-page and off-page SEO strategies to enhance website visibility and organic traffic.</li>
+                <li>(SEO Audit) Analysed a website's SEO performance, identifying issues.</li>
+                <li>(Google Analytics) Analysed website traffic data to make informed decisions and track performance.</li>
+                <li>Stayed current with industry trends and algorithm changes, adjusting strategies accordingly.</li>
+            </ul>
+        </div>
+        <div id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>Bachelor of Technology in Electrical Engineering from Rajdhani Engineering College, Jaipur</li>
+                <li>10+2 from M.B. International, Kota, R.B.S.E.</li>
+                <li>10th from D.P.S. Kota, R.B.S.E.</li>
+            </ul>
+        </div>
+        <div id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>MS Excel</li>
+                <li>MS Word</li>
+                <li>MS PowerPoint</li>
+                <li>Canva</li>
+            </ul>
+        </div>
+        <div id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Digital Marketing Course - AK Digital Marketing - Ecommerce Classes</li>
+                <li>Digital Marketing Internship - AK Digital Marketing Pvt. Ltd</li>
+            </ul>
+        </div>
+        <div id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English - Proficient</li>
+                <li>Hindi - Native</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>Contact: Maharana | Jaipur, India | 9462968527 | <a href="mailto:maharana.ig.rec@gmail.com">maharana.ig.rec@gmail.com</a></p>
+    </footer>
+</body>
+</html>
